@@ -13,7 +13,7 @@ import "../styles/welcomePage.css";
 import Layout from "../components/Layout";
 import { Input, TextArea } from "../components/input";
 import greenField from "../assets/green-field.jpg";
-import logo from "../assets/logo.jpg";
+import GreenLeaf from "../assets/logo.jpg";
 import waterFall from "../assets/water-fall.jpg";
 
 function WelcomePage() {
@@ -174,7 +174,7 @@ function WelcomePage() {
               <div className="mb-4">
                 <h6 className="text-uppercase font-bold mb-4">
                   <img
-                    src={logo}
+                    src={GreenLeaf}
                     alt="Logo"
                     width="20"
                     height="20"
